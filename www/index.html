@@ -17,6 +17,9 @@
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
+    
+    <!-- Third party libraries -->
+    <script src="lib/EpsilonJS/build/epsilon.min.js"></script>
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
@@ -31,7 +34,7 @@
       <ion-content scroll="false" class="fill-height">
     <div class="row row-center">
         <div class="col display">
-          <span>{{display}}</span>
+          <span class="display">{{display.join('')}}</span>
         </div>
          
     </div>
